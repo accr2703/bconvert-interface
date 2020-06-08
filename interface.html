@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+         <title>Conversor de Bases </title>
+         <meta charset="utf-8" />
+         <link href="css/estilo.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+        <div class="text">
+
+            <style type="text/css">
+             p{
+                 letter-spacing: 4px;
+                 line-height: 40px;
+             }
+            </style>
+            
+          
+          <form>
+                <fieldset>
+                <legend><h1><br>Conversor de Bases </h1></legend>
+                <p>Number:</p>
+               <div><input id="numero" type="number" name="número" placeholder="Digite um Número" /></div> 
+
+                <p>Base:</p>
+              <div>
+                <select id="initial" name="Initial">
+                  <option disabled selected>Base</option>
+                  <option value="2">2</option>
+                  <option value="8">8</option>
+                  <option value="10">10</option>
+                  <option value="16">16</option>
+                </select>
+            </div>
+
+                <p>Mudar Base:</p>
+                
+              <div>
+                <select id="base" name="Base">
+                  <option disabled selected>Base</option>
+                  <option value="2">2</option>
+                  <option value="8">8</option>
+                  <option value="10">10</option>
+                  <option value="16">16</option>  
+                </select>
+            </div> 
+
+<br><br>
+
+                <input type="submit" value="Converter" onclick="convert(event)" />
+                <input type="submit" value="Tabela de conversão" style="width: 180px" onclick="convert(event, true)" />
+<br><br>
+
+                <input type="submit" value="Delete" onclick="clear(event)"/>
+<br><br>
+
+</fieldset>
+</form>
+</div>
+<script src="script.js"></script>
+</body>
+
+
+</html>

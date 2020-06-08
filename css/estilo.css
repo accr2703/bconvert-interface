@@ -1,0 +1,97 @@
+body{
+
+    background-color:rgba(0, 0, 0, 0.856)
+}
+
+/* Estilo para o conteúdo do programa*/
+html,body{
+        height: 100%;
+
+}
+.text{
+     width: 100%;
+     height: 100%;
+     margin: 0 auto;
+     color: rgb (14,33,61);
+     text-align: center;
+     background-color:rgba(14, 15, 15, 0.589);
+     background-image: url('../Imagens/1.jpeg');
+     background-repeat: no-repeat;
+     background-position: top;
+     background-size: 100% auto;
+     
+}
+.text h1{
+      color: rgb(100, 97, 100);
+      font size: 30px;
+      font-family: "Lucida Console";
+      font-style: italic;
+      font-weight: bolt;
+      font-variant: small-caps;
+}
+
+.text p{
+      color: #b4b4b4;
+      text-align: inherit;
+      font size: 23px;
+      font-family: "Lucida Console";
+      font-style: italic;
+      font-weight: bolt;
+      font-variant: small-caps;
+      margin-top: top 30px;
+      line-height: 40px;
+    }
+      form{
+            width: 96%;
+            max-width: 600px;
+            margin: 0 auto;
+      }
+
+      form fieldset{
+            border: 2px solid #ccc;
+      }
+
+
+
+   form input[type=number]{
+          display: inline-block;
+          margin-top: 1%;
+          width: 60%;
+          padding: 5px 8px;
+          color: #888585;
+          text-align: left;
+          font size: 60px;
+          font-family: "times";
+          font-weight: bolt;
+         
+   }
+   form input[type=number]:focus, form select:focus{
+          background-color: rgba(124, 136, 136, 0.205);
+    }
+
+    form select{
+      display: inline-block;
+      margin-top: 1%;
+      width: calc( 60% + 19px);
+      padding: 5px 8px;
+      color: #888585;
+      text-align: inherit;
+      font size: 60px;
+      font-family: "times";
+      font-weight: bolt;
+     }
+   
+    
+    form input[type=submit]{
+
+      margin-top: 8px;
+      border:0;
+      width: 140px;
+      height: 30px;
+      font-size: 16px;
+      cursor: wait;
+      border:2px solid rgb(130,130,130);
+      color:white;
+      background-color: rgba(14, 15, 15, 0.589);
+
+}
